@@ -1,79 +1,66 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+# React Native Password Generator
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+This is my first **React Native** app! 🚀  
+The **Password Generator** app allows users to generate secure passwords with customizable options. Users can select the length of the password, choose character types (uppercase, lowercase, numbers, symbols), and even copy or share the generated password with ease.
 
-## Step 1: Start the Metro Server
+## Features
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- 🔒 **Customizable Password Options**:
+  - Set the password length.
+  - Include/exclude:
+    - Lowercase letters
+    - Uppercase letters
+    - Numbers
+    - Symbols
+- 📋 **Copy Password**: Long-press to copy the generated password to the clipboard.
+- 📤 **Share Password**: Share the generated password with other apps.
+- ✅ **Smooth Form Handling**:
+  - Form validation using **Formik** and **Yup**.
+  - Checkbox functionality using **BouncyCheckbox**.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Screenshots
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/699d6dd0-ea90-4398-9da8-c88ed6c9b29d" alt="Screenshot 1" width="45%">
+  <img src="https://github.com/user-attachments/assets/964cdbec-ded0-4196-8b8c-b08bd6ddb749" alt="Screenshot 2" width="45%">
+</div>
 
-```bash
-# using npm
-npm start
+## Tech Stack
 
-# OR using Yarn
-yarn start
-```
+- **React Native**: Cross-platform app development.
+- **Formik**: For form state management.
+- **Yup**: For schema-based form validation.
+- **BouncyCheckbox**: For a smooth and stylish checkbox component.
 
-## Step 2: Start your Application
+## How to Use
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+1. Clone this repository:  
+   ```bash
+   git clone <repository_url>
+   cd <repository_directory>
+   ```
+2. Install dependencies:  
+   ```bash
+   npm install
+   ```
+3. Start the app:
+   ```bash
+   npm start
+   ```
+4. Open the app on an emulator or connected device using **Expo Go** or your preferred tool.
 
-### For Android
+## Dependencies
 
-```bash
-# using npm
-npm run android
+- React Native
+- Formik
+- Yup
+- BouncyCheckbox
+- React Native Clipboard
+- React Native Share
 
-# OR using Yarn
-yarn android
-```
+## Contribution
 
-### For iOS
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the project and submit a pull request.
 
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+---
